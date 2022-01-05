@@ -17,4 +17,4 @@ jobs:
       - name: lint
         run: npm run lint
       - name: run app
-        run: ${{npm run tsc && npm start}}
+        run: npm run tsc && npm start
