@@ -17,5 +17,4 @@ jobs:
       - name: lint
         run: npm run lint
       - name: run app
-        - run: npm tsc
-        - run: npm start
+        run: npm tsc
